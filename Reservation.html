@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reservation...</title>
+	<link rel="stylesheet" type="text/css" href="Reservation.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="https://i.pinimg.com/600x315/db/00/4f/db004f21c447d9cda009d7d4f5c6946c.jpg">
+		</div>
+		<input type="checkbox" id="click" name="">
+		<label for="click" class="menu-btn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="Reservation.html">Reservation</a></li>
+			<li><a href="Aboutus.html">About US</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="Testimonials.html">Testimonials</a></li>
+		</ul>
+	</nav>
+	<!---<div class="content">
+		<h1>Welcome To Your Kitchen</h1>
+	</div>--->
+
+	<!---------------Reservation----------------------------->
+	<section class="bg-img">
+		<h1>Book Your Table Now</h1>
+		<div class="container">
+			<div class="container-img">
+				<!----img--->
+			</div>
+
+			<div class="contenta">
+				<h3>Reservation</h3>
+				<form>
+					<div class="form-r">
+						<select name="days">
+							<option value="day-select">Select</option>
+							<option value="sunday">Sunday</option>
+							<option value="monday">Monday</option>
+							<option value="tueday">Tueday</option>
+							<option value="wednesday">Wednesday</option>
+							<option value="thuday">Thuday</option>
+							<option value="friday">Friday</option>
+							<option value="satday">Satday</option>
+						</select>
+						<select name="hours">
+							<option value="hour-select">Select-Hour</option>
+							<option value="10">10:00AM</option>
+							<option value="10">12:00PM</option>
+							<option value="10">02:00PM</option>
+							<option value="10">04:00PM</option>
+							<option value="10">07:30PM</option>
+							<option value="10">09:30PM</option>
+							<option value="10">11:30PM</option>
+							<option value="10">01:00AM(Only Sat & Sun)</option>
+						</select>
+					</div>
+					<div class="form-r">
+						<input type="text" placeholder="Full Name" required>
+						<input type="number" placeholder="Mobile no." required>
+					</div>
+					<div class="form-r">
+						<input type="number" placeholder="How Many Persons?"min="1" name="" required>
+						<input type="mail" placeholder="@gmail.com" required>
+					</div>
+					<div class="submit">
+						<input type="submit" value="Book Table" name="" required>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
